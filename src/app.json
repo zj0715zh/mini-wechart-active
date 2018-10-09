@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/login/main",
+    "pages/activeform/main" ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

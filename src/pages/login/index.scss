@@ -1,0 +1,19 @@
+#loginsdk{
+  .banner {
+    overflow: hidden;
+    height: 5.73rem;
+    padding-bottom: .25rem;
+    padding-top: .3rem;
+    background: url(//ac.ppdaicdn.com/img/mlogin/banner.png) center bottom no-repeat;
+    background-size: 6.07rem 5.54rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .banner .logo {
+    width: 4.64rem;
+    height: 4.64rem;
+    display: inline-block;
+  }
+}

@@ -1,0 +1,52 @@
+.sdk_dialog{
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  .mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+  }
+  .content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    line-height: 0.8rem;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    border-radius: 0.2rem;
+    font-size: 0.56rem;
+    color: #384369;
+    background: #fff;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    .title{
+      text-align: center;
+      width: 100%;
+      font-size: 0.8rem;
+      line-height: 2.4rem;
+    }
+    .dialogBox{
+      padding: 0.4rem 0.8rem;
+    }
+    .btn_group{
+      border-top:1px solid #ececec;
+      a{
+        float:left;
+        width: 49%;
+        line-height: 2.0rem;
+        text-decoration: none;
+        color: #5179f3;
+        text-align: center;
+        font-size: 0.68rem;
+      }
+      .cancel{
+        border-right:1px solid #ececec;
+      }
+    }
+  }
+}

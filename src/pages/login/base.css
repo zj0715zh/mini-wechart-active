@@ -1,0 +1,287 @@
+
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    -ms-tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Helvetica Neue",微软雅黑,Tohoma
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none
+}
+
+:focus {
+    outline: 0
+}
+
+ins {
+    text-decoration: none
+}
+
+del {
+    text-decoration: line-through
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,th,td {
+    text-align: left;
+    font-weight: 400;
+    float: none!important
+}
+
+table,th,td {
+    vertical-align: middle
+}
+
+em,i {
+    font-style: normal
+}
+
+a img {
+    border: 0;
+    text-decoration: none
+}
+
+:focus {
+    outline: 0
+}
+
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+    font-size: 0!important;
+    line-height: 0!important;
+    height: 0!important
+}
+
+.clearfix:after {
+    clear: both
+}
+
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+input,select {
+    -webkit-user-modify: read-write-plaintext-only;
+    -webkit-tap-highlight-color: transparent;
+    color: #d1d1d1;
+    white-space: pre;
+    font-family: "Helvetica Neue",微软雅黑,Tohoma
+}
+
+input[type=reset]::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=submit]::-moz-focus-inner,input[type=file]>input[type=button]::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.public-layer-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #101010;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    opacity: .86
+}
+
+.public-layer-alert {
+    width: 200px;
+    border-radius: .16rem;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -100px;
+    z-index: 9999
+}
+
+.public-layer-alert .alert-word-top {
+    color: #e6933f;
+    font-size: 1.6rem;
+    padding: 5px 0;
+    border-bottom: 1px solid #e27f00
+}
+
+.public-layer-alert .alert-word-main {
+    color: #000;
+    font-size: 1.2rem;
+    padding: 10px;
+    line-height: 1.5;
+    text-align: justify
+}
+
+.public-layer-alert .alert-word-bottom {
+    width: 65px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #1598f3;
+    border-radius: .16rem;
+    text-align: center;
+    color: #1598f3;
+    margin: 0 auto;
+    font-size: .64rem;
+    margin-bottom: 10px
+}
+
+.ubox {
+    display: -webkit-box;
+    display: box;
+}
+
+.ub-f1 {
+    flex: 1;
+    -webkit-flex: 1;
+    box-flex: 1;
+    -webkit-box-flex: 1
+}
+
+input[type=number],input[type=text],input[type=tel],input[type=password] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    background: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    display: block;
+    margin: .48rem 0 0;
+    padding: 0;
+    width: 100%;
+    height: 1.64rem;
+    font-size: 0.64rem;
+    color: #212121;
+    vertical-align: middle;
+    border-bottom: 1px solid #dae0ec;
+    border-radius: 0
+}
+
+input[type=number]:focus,input[type=text]:focus,input[type=tel]:focus,input[type=password]:focus {
+    border-bottom-color: #02a9ff
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    background: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    display: block;
+    margin: .48rem 0 0;
+    padding: 0;
+    width: 100%;
+    height: 1.64rem;
+    font-size: .6rem;
+    color: #bdbdbd;
+    vertical-align: middle;
+    border-bottom: 1px solid #e0e0e0;
+    background: url(https://ac.ppdaicdn.com/img/mlogin/form-icon03.png) 99.3% center no-repeat;
+    background-size: auto 15%
+}
+
+input[type=number]:disabled,input[type=text]:disabled,input[type=tel]:disabled,input[type=password]:disabled {
+    -webkit-text-fill-color: rgba(0,0,0,1);
+    -webkit-opacity: 1
+}
+
+input[type=number][disabled],input[type=text][disabled],input[type=tel][disabled],input[type=password][disabled] {
+    -webkit-text-fill-color: rgba(0,0,0,1);
+    -webkit-opacity: 1
+}
+
+::-webkit-input-placeholder {
+    color: #bdbdbd
+}
+
+:-moz-placeholder {
+    color: #bdbdbd
+}
+
+::-moz-placeholder {
+    color: #bdbdbd
+}
+
+:-ms-input-placeholder {
+    color: #bdbdbd
+}
+
+input[type=submit],input[type=reset],input[type=button],button {
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: .16rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background: #5179f3;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1.92rem;
+    line-height: 1.92rem;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .64rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+
+
+
