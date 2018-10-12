@@ -1,0 +1,10 @@
+{
+  	"navigationBarTitleText": "报名表首页",
+	"usingComponents": {
+    	"i-row": "../../components/iview/row/index",
+    	"i-col": "../../components/iview/col/index",
+    	"i-divider": "../../components/iview/divider/index",
+    	"i-tabs": "../../components/iview/tabs/index",
+    	"i-tab": "../../components/iview/tab/index"
+	}
+}
